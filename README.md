@@ -17,6 +17,10 @@ sudo ./AiScan-N-Kali-Server.bin -token 123456
 
 <img width="1049" height="194" alt="image" src="https://github.com/user-attachments/assets/f977cd9b-8cff-4010-b3c0-1509e5c1fde2" />
 访问提示"OK"说明服务端运行成功。
-持续更新中......
 
+
+持续更新中......
+<img src="https://github.com/user-attachments/assets/8da43a82-eca5-4d73-98a9-355727edefbe" alt="微信联系方式" width="200">
+
+![qrcode_for_gh_d5ada85b15ef_258](https://github.com/user-attachments/assets/85ef2a0d-6358-44d9-9b32-427fb4d46ab4)
 
