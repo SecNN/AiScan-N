@@ -2,11 +2,10 @@
 
     本项目提供一个基于 Flask 的Ai自动化渗透工具 API 服务端（AiScan-N-Kali-Server）。该服务封装了常用安全工具的命令行调用，通过 HTTP 接口统一访问。
 ​	
-自动化渗透测试-靶场：https://github.com/SecNN/AI-PT
+🚀自动化渗透测试-靶场：https://github.com/SecNN/AI-PT
 
 🌈常见漏洞知识库文档在线阅读：https://www.secnn.com/POC-EXP 
 
- 🚀项目地址：https://github.com/SecNN/SecNN-Wiki
 ## 在Kali Linux 运行AiScan-N-Kali-Server 开启服务
 
 ```
