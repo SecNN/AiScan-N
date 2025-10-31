@@ -16,6 +16,7 @@
                        🌐 https://github.com/SecNN/AiScan-N   
 ```
 
+🎥在线演示视频（文章中）：https://mp.weixin.qq.com/s/7lsUdbrxkDy4P5pZhEWv7Q
 
 🚀自动化渗透测试-靶场：https://github.com/SecNN/AI-PT
 
@@ -39,6 +40,7 @@ sudo ./AiScan-N-Kali-Server.bin -token 123456
 <img width="1920" height="1032" alt="image-20251022164225281" src="https://github.com/user-attachments/assets/2775b501-3fc0-4c22-9c10-da08806baf36" />
 
 <img width="1920" height="1032" alt="image-20251022164441565" src="https://github.com/user-attachments/assets/32e690b2-dadd-440b-b081-ff8f28db28c4" />
+
 
 
 
