@@ -22,6 +22,10 @@ AiScan-N 来了！这是一款基于人工智能的Ai全自动化渗透测试�
 
 🌈常见漏洞知识库文档在线阅读：https://www.secnn.com/POC-EXP 
 
+🎥在线演示视频（文章中）：https://mp.weixin.qq.com/s/7lsUdbrxkDy4P5pZhEWv7Q
+
+🎯用Ai做自动化渗透测试对CTF题目进行解密|CTF网络安全大赛：https://mp.weixin.qq.com/s/Xu6WpkmPP04MA8fApxOMzA
+
  你是否想过，未来的黑客可能不再是戴着面具的神秘人🎭，而是一台24小时不间断运行的Ai机器人？全自动化渗透测试（Automated Penetration Testing）正从实验室走向现实，它不仅改变了网络安全的游戏规则，也让企业和个人面临前所未有的挑战和机遇。那么，什么是AI全自动化渗透测试？它有哪些优势？又将如何改变安全防护的格局？一起来了解吧！
 
 ## 🌟 什么是Ai全自动化渗透测试？    
@@ -45,7 +49,8 @@ AiScan-N 来了！这是一款基于人工智能的Ai全自动化渗透测试�
 ## 在Kali Linux 运行AiScan-N-Kali-Server 开启服务
 
 ```
-sudo ./AiScan-N-Kali-Server.bin -token 123456
+sudo chmod  +x  AiScan-N-Kali-Server.bin    # 赋予执行权限
+sudo ./AiScan-N-Kali-Server.bin -token 123456     # token中的123456可自定义
 ```
 
 🚨token用于API接口鉴权的Bearer令牌，未设置 token，将受到被恶意漏洞利用的高危风险 ⚠️ 建议设置强密码型令牌提高安全性。
