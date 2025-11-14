@@ -24,7 +24,7 @@ AiScan-N 来了！这是一款基于人工智能的Ai全自动化渗透测试�
 
 🎥在线演示视频（文章中）：https://mp.weixin.qq.com/s/7lsUdbrxkDy4P5pZhEWv7Q
 
-🎯用Ai做自动化渗透测试对CTF题目进行解密|CTF网络安全大赛：https://mp.weixin.qq.com/s/Xu6WpkmPP04MA8fApxOMzA
+🎯用Ai做自动化渗透测试对CTF题目进行解密|CTF网络安全大赛：https://mp.weixin.qq.com/s/Xu6WpkmPP04MA8fApxOMzA  （本篇文章介绍了使用Ai工具对CTF题目自动化解密的过程包含：** 图片隐写-Hex附加、压缩包伪加密识别与破解、AES解密、SQL注入漏洞、文件上传漏洞 **）
 
  你是否想过，未来的黑客可能不再是戴着面具的神秘人🎭，而是一台24小时不间断运行的Ai机器人？全自动化渗透测试（Automated Penetration Testing）正从实验室走向现实，它不仅改变了网络安全的游戏规则，也让企业和个人面临前所未有的挑战和机遇。那么，什么是AI全自动化渗透测试？它有哪些优势？又将如何改变安全防护的格局？一起来了解吧！
 
