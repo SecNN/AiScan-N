@@ -101,8 +101,37 @@ http://6igi6zl.haobachang.loveli.com.cn:8888/ 对本题进行分析，拿下这�
 <img width="1568" height="870" alt="ctf" src="https://github.com/user-attachments/assets/e136b03e-6f4d-4e5c-821a-a4b8b454b290" />
 操作比较简单的，而且体验感对于我来说感觉还不错的，并且具有一定的实用性。
 
+### 3.图片隐写-Hex附加：
+对一个图片隐写进行分析，给出了一个zip文件的URL。需要先下载这个文件，然后进行分析。
+提示词：
+```
+对该图片隐写进行分析 http://loveli.com.cn/static/timu/7025b454-055c-4ad6-9ba4-b59a2fca72fa.zip
+```
+<img width="1080" height="547" alt="image" src="https://github.com/user-attachments/assets/cc8942c3-2c94-4a3c-9765-f2e8f8a12631" />
+
+成功获取的flag值为：flag{haobachang_huanying_nin_123782934789372459}
+
+解密过程
+
+```
+整个过程包括以下步骤：
+1. 文件获取 ：使用wget下载了指定的zip文件，并解压得到test.png图片
+2. 初步分析 ：通过exiftool发现了重要线索 - PNG文件的IEND块后存在额外数据
+3. 深入分析 ：使用strings工具在文件末尾发现了TEXT_START标记和隐藏的flag内容
+4. 确认结果 ：通过hexdump验证了在PNG的IEND块后确实存在附加数
+```
+
+隐写方法 ：使用了文件尾部附加数据的方式，这是一种常见的隐写技术，利用大多数图像查看器会忽略IEND块后额外数据的特性。
+
+
+
+
+
+
+
 ⚠️ 注意事项:
 纯依赖Ai可能缺乏创造性，某些复杂问题仍需人工干预。
+
 
 持续更新中......
 
