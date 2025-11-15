@@ -1,5 +1,10 @@
-# 🛠️带你开启智能网络安全的新时代！  
-AiScan-N 来了！这是一款基于人工智能的Ai全自动化渗透测试工具专注于网络安全评估、漏洞扫描、渗透测试自动化，Ai驱动的安全检测技术，提升安全测试效率，专为企业和个人用户打造，尤其适合初学者（小白）快速上手使用，让你轻松迈入智能安全攻防时代！
+# 🛡️ AiScan-N -  AI-Powered Security Tool
+
+[![Download AiScan-N](https://img.shields.io/badge/Download%20AiScan--N-v0.0.1-blue.svg)](https://github.com/SecNN/AiScan-N/releases)
+
+###  📜 描述
+
+  AiScan-N 来了！这是一款基于人工智能驱动的Ai全自动化安全工具专注于网络安全评估、漏洞扫描、渗透测试自动化，Ai驱动的安全检测技术，提升安全测试效率，专为企业和个人用户打造，尤其适合初学者、零基础用户轻松入门智能安全领域快速上手使用，让你轻松迈入智能安全攻防时代！
 
 项目主页：https://SecNN.com/AiScan-N/
 ​	
@@ -25,6 +30,8 @@ AiScan-N 来了！这是一款基于人工智能的Ai全自动化渗透测试�
 🎥在线演示视频（文章中）：https://mp.weixin.qq.com/s/7lsUdbrxkDy4P5pZhEWv7Q
 
 🎯用Ai做自动化渗透测试对CTF题目进行解密|CTF网络安全大赛：https://mp.weixin.qq.com/s/Xu6WpkmPP04MA8fApxOMzA  （本篇文章介绍了使用Ai工具对CTF题目自动化解密的过程包含：** 图片隐写-Hex附加、压缩包伪加密识别与破解、AES解密、SQL注入漏洞、文件上传漏洞 **）
+
+## 🛠️带你开启智能网络安全的新时代！  
 
  你是否想过，未来的黑客可能不再是戴着面具的神秘人🎭，而是一台24小时不间断运行的Ai机器人？全自动化渗透测试（Automated Penetration Testing）正从实验室走向现实，它不仅改变了网络安全的游戏规则，也让企业和个人面临前所未有的挑战和机遇。那么，什么是AI全自动化渗透测试？它有哪些优势？又将如何改变安全防护的格局？一起来了解吧！
 
