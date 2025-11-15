@@ -56,11 +56,12 @@ sudo ./AiScan-N-Kali-Server.bin -token 123456     # token中的123456可自定�
 🚨token用于API接口鉴权的Bearer令牌，未设置 token，将受到被恶意漏洞利用的高危风险 ⚠️ 建议设置强密码型令牌提高安全性。
 
 运行之后显示如下：
-<img width="927" height="420" alt="image" src="https://github.com/user-attachments/assets/d7a095b8-a6e1-4db5-8403-212c3e445647" />
+![图片描述](images/1.png)
+
 
 检查服务是否运行成功访问🚀 监听地址:
 
-<img width="1049" height="194" alt="image" src="https://github.com/user-attachments/assets/f977cd9b-8cff-4010-b3c0-1509e5c1fde2" />
+![图片描述](images/2.png)
 
 访问提示"OK"说明服务端运行成功。
 
@@ -77,9 +78,9 @@ sudo ./AiScan-N-Kali-Server.bin -token 123456     # token中的123456可自定�
 
 🚩靶场IP：192.168.10.18【网站 http://192.168.10.18/index.php】
 
-<img width="1920" height="1032" alt="image-20251022164225281" src="https://github.com/user-attachments/assets/2775b501-3fc0-4c22-9c10-da08806baf36" />
+![图片描述](images/3.png)
 
-<img width="1920" height="1032" alt="image-20251022164441565" src="https://github.com/user-attachments/assets/32e690b2-dadd-440b-b081-ff8f28db28c4" />
+![图片描述](images/4.png)
 🎥在线演示视频（文章中）：https://mp.weixin.qq.com/s/7lsUdbrxkDy4P5pZhEWv7Q
 
 🎯攻击链概述：本次Ai全自动化渗透测试中，我们按照标准的渗透测试方法论，从信息收集开始，逐步发现并利用了多个安全漏洞，形成了完整的攻击链。
@@ -98,7 +99,7 @@ sudo ./AiScan-N-Kali-Server.bin -token 123456     # token中的123456可自定�
 http://6igi6zl.haobachang.loveli.com.cn:8888/ 对本题进行分析，拿下这道题目的flag
 ```
 成功获取到flag：flag{328fb13344854a19838209c0ec24e4b7}
-<img width="1568" height="870" alt="ctf" src="https://github.com/user-attachments/assets/e136b03e-6f4d-4e5c-821a-a4b8b454b290" />
+![图片描述](images/5.png)
 操作比较简单的，而且体验感对于我来说感觉还不错的，并且具有一定的实用性。
 
 ### 3.图片隐写-Hex附加：
@@ -107,7 +108,7 @@ http://6igi6zl.haobachang.loveli.com.cn:8888/ 对本题进行分析，拿下这�
 ```
 对该图片隐写进行分析 http://loveli.com.cn/static/timu/7025b454-055c-4ad6-9ba4-b59a2fca72fa.zip
 ```
-<img width="1080" height="547" alt="image" src="https://github.com/user-attachments/assets/cc8942c3-2c94-4a3c-9765-f2e8f8a12631" />
+![图片描述](images/6.png)
 
 成功获取的flag值为：flag{haobachang_huanying_nin_123782934789372459}
 
@@ -131,7 +132,7 @@ http://6igi6zl.haobachang.loveli.com.cn:8888/ 对本题进行分析，拿下这�
 
 持续更新中......
 
-<img src="https://github.com/user-attachments/assets/42cb0d9d-6acb-435f-9390-3326ba6f7791" alt="微信联系方式" width="600">
 
+<img src="images/7.jpg" alt="项目Logo" width="500">
 
 
