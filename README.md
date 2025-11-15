@@ -59,7 +59,7 @@ sudo ./AiScan-N-Kali-Server.bin -token 123456     # token中的123456可自定�
 ![图片描述](images/1.png)
 
 
-检查服务是否运行成功访问🚀 监听地址:
+检查服务是否运行成功浏览器访问🚀 监听地址:
 
 ![图片描述](images/2.png)
 
