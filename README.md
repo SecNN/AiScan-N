@@ -144,9 +144,12 @@ http://6igi6zl.haobachang.loveli.com.cn:8888/ 对本题进行分析，拿下这�
 纯依赖Ai可能缺乏创造性，某些复杂问题仍需人工干预。
 
 
-持续更新中......
+☕ 持续更新中......
 
 
 <img src="images/7.jpg" alt="项目Logo" width="500">
+
+## 🙏 Thanks
+- ❤️ 特别感谢 [@LANDY-LI-2025](https://github.com/LANDY-LI-2025) 提供的宝贵建议。
 
 
