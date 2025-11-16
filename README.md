@@ -134,6 +134,12 @@ http://6igi6zl.haobachang.loveli.com.cn:8888/ 对本题进行分析，拿下这�
 
 🎯用Ai做自动化渗透测试对CTF题目进行解密|CTF网络安全大赛：https://mp.weixin.qq.com/s/Xu6WpkmPP04MA8fApxOMzA  （本篇文章介绍了使用Ai工具对CTF题目自动化解密的过程包含：** 图片隐写-Hex附加、压缩包伪加密识别与破解、AES解密、SQL注入漏洞、文件上传漏洞 **）
 
+## WSL（Windows Subsystem for Linux）Kali
+![图片描述](images/wslkali.png)
+
+## MacOS苹果系统
+![图片描述](images/MacOS.png)
+
 ⚠️ 注意事项:
 纯依赖Ai可能缺乏创造性，某些复杂问题仍需人工干预。
 
