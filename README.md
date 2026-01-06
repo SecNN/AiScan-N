@@ -90,7 +90,7 @@ AiScan-N 服务端参数:
   -port PORT    API 服务器端口（默认: 10000）
   -token TOKEN  用于 API 令牌的鉴权
 ```
-## 在 Linux 或 MacOS 运行 AiScan-N Tools API 服务器
+## 在 Linux 或 MacOS 运行 AiScan-N Tools API 服务端
 ```
 sudo chmod  +x  AiScan-N-Server.bin          # 赋予执行权限
 方法一【命令行模式运行】：sudo ./AiScan-N-Server.bin -token 123456     # token中的123456可自定义
@@ -99,7 +99,7 @@ sudo chmod  +x  AiScan-N-Server.bin          # 赋予执行权限
 请输入AiScan-N服务器端口（可直接回车跳过） [默认: 10000]:
 请输入AiScan-N服务器鉴权Token（必填）:
 ```
-## 在Windows运行 AiScan-N Tools API 服务器
+## 在Windows运行 AiScan-N Tools API 服务端
 
 ```
 方法一：【打开CMD命令行模式运行】：AiScan-N-Server.exe -token 123456  
