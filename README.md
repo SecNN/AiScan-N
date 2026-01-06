@@ -35,7 +35,7 @@
 
 ## 🪢 支持多种主流大语言模型（LLM）
 
-| 🌐 国外大模型&平台                                            | 🇨🇳  国内大模型&平台                                          | 🏠 本地私有部署<br/>🔐数据不出内网，满足合规要求               |
+| 🌐 国外大模型&平台                                            | 🧠  国内大模型&平台                                          | 🏠 本地私有部署<br/>🔐数据不出内网，满足合规要求               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **OpenAI、GPT-4o, GPT-4 Turbo, ChatGPT、Google Gemini、Claude 3、Llama等大模型。** | **DeepSeek、Qwen（通义千问）、 智谱 GLM-4 、Moonshot Kimi（月之暗面）、 文心一言 · MiniMax · 豆包等大模型。** | **Ollama、 LM Studio、Llama3、Qwen（通义千问）、DeepSeek等本地大模型或平台。** |
 
@@ -90,7 +90,11 @@ AiScan-N 服务端参数:
   -port PORT    API 服务器端口（默认: 10000）
   -token TOKEN  用于 API 令牌的鉴权
 ```
-## 在 Linux 或 MacOS 运行 AiScan-N Tools API 服务端
+## 🌐跨平台运行
+✨ 完美支持 🪟 Windows | 🐧 Linux | 🍎 MacOS | WSL 环境 <br/> 
+⌨️ CLI 命令行交互功能，助力开发效率提升<br/> 
+🚀 适用于从本地开发到云端部署的全场景需求<br/> 
+## 🤖在 Linux 或 MacOS 运行 AiScan-N Tools API 服务端
 ```
 sudo chmod  +x  AiScan-N-Server.bin          # 赋予执行权限
 方法一【命令行模式运行】：sudo ./AiScan-N-Server.bin -token 123456     # token中的123456可自定义
@@ -102,7 +106,7 @@ sudo chmod  +x  AiScan-N-Server.bin          # 赋予执行权限
 运行之后显示如下：
 ![图片描述](images/1.png)
 
-## 在Windows运行 AiScan-N Tools API 服务端
+## 🤖在Windows运行 AiScan-N Tools API 服务端
 
 ```
 方法一：【打开CMD命令行模式运行】：AiScan-N-Server.exe -token 123456  
