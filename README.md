@@ -99,6 +99,9 @@ sudo chmod  +x  AiScan-N-Server.bin          # 赋予执行权限
 请输入AiScan-N服务器端口（可直接回车跳过） [默认: 10000]:
 请输入AiScan-N服务器鉴权Token（必填）:
 ```
+运行之后显示如下：
+![图片描述](images/1.png)
+
 ## 在Windows运行 AiScan-N Tools API 服务端
 
 ```
@@ -108,11 +111,11 @@ sudo chmod  +x  AiScan-N-Server.bin          # 赋予执行权限
 请输入AiScan-N服务器端口（可直接回车跳过） [默认: 10000]:
 请输入AiScan-N服务器鉴权Token（必填）:
 ```
+运行之后显示如下：
+![图片描述](images/8.png)
 
 🚨token用于API接口鉴权的Bearer令牌，未设置 token，将受到被恶意漏洞利用的高危风险 ⚠️ 建议设置强密码型令牌提高安全性。
 
-运行之后显示如下：
-![图片描述](images/1.png)
 
 
 检查服务是否运行成功浏览器访问🚀 监听地址:
