@@ -36,7 +36,7 @@
 ## 🪢 支持多种主流大语言模型（LLM）
 | 🌐 国外大模型&平台                                            | 🇨🇳 国内大模型&平台                                            | 🏠 本地私有部署<br/> 🔐数据不出内网，满足合规要求                   | 🧠RAG 知识库检索增强生成                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------ |
-| **OpenAI、GPT-4o, GPT-4 Turbo, ChatGPT、Google Gemini、Claude 3、Llama等大模型。** | **DeepSeek、Qwen（通义千问）、 智谱 GLM-4 、Moonshot Kimi（月之暗面）、 文心一言 · MiniMax · 豆包等大模型。** | **支持Ollama、 LM Studio、Llama3、Qwen（通义千问）、DeepSeek等本地大模型或平台。** | **📚通过结合检索机制和生成模型，提供准确且相关的回答。** |
+| **OpenAI、GPT-4o, GPT-4 Turbo, ChatGPT、Google Gemini、Claude 3、Llama等大模型。** | **DeepSeek、Qwen（通义千问）、 智谱 GLM-4 、Moonshot Kimi（月之暗面）、 文心一言 · MiniMax · 豆包等大模型。** | **支持Ollama、 LM Studio、Llama3、Qwen（通义千问）、DeepSeek等本地大模型或平台。** | **📚通过结合检索机制和生成模型，提供准确且相关的回答，大幅降低误报率。** |
 
 💡 支持大模型 API 中转站，解决网络访问问题 | [LLM 平台](https://api.secnn.com/) | 详细配置 → [LLM平台 使用说明书](https://www.secnn.com/AiScan-N/SecNNAPi.html)
 
