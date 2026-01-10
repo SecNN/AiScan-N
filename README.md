@@ -93,6 +93,20 @@ AiScan-N 服务端参数:
 ✨ 完美支持 🪟 Windows | 🐧 Linux | 🍎 MacOS | WSL 环境 <br/> 
 ⌨️ CLI 命令行交互功能，助力开发效率提升<br/> 
 🚀 适用于从本地开发到云端部署的全场景需求<br/> 
+
+客户端
+```
+AiScan-N.exe   运行在Windows中的客户端
+AiScan-N.bin   运行在Linux中的客户端（Linux系统一般都支持)
+AiScan-N-ARM.bin  运行在MacOS苹果系统中的客户端
+```
+服务端
+```
+AiScan-N-Server.bin   运行在AMD架构中的Linux服务端（大多数系统都是这个架构）
+AiScan-N-Server-ARM.bin   运行在苹果MacOS系统ARM架构中的服务端（常见：苹果MacOS系统）
+AiScan-N-Server.exe    运行在Windows系统AMD架构中的服务端
+```
+根据自己的系统架构各选择一个服务端和客户端运行即可。
 ## 🤖在 Linux 或 MacOS 运行 AiScan-N Tools API 服务端
 ```
 sudo chmod  +x  AiScan-N-Server.bin          # 赋予执行权限
