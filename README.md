@@ -1,6 +1,6 @@
 # 🛡️ AiScan-N -  AI-Powered Security Tool
 
-[![Download AiScan-N](https://img.shields.io/badge/Download%20AiScan--N-v0.0.2-blue.svg)](https://github.com/SecNN/AiScan-N/releases)
+[![Download AiScan-N](https://img.shields.io/badge/Download%20AiScan--N-v0.0.3-blue.svg)](https://github.com/SecNN/AiScan-N/releases)
 
 ###  📜 描述
 
@@ -32,6 +32,10 @@
 🎥在线演示视频（文章中）：https://mp.weixin.qq.com/s/7lsUdbrxkDy4P5pZhEWv7Q
 
 🎯用Ai做自动化渗透测试对CTF题目进行解密|CTF网络安全大赛：https://mp.weixin.qq.com/s/Xu6WpkmPP04MA8fApxOMzA  （本篇文章介绍了使用Ai工具对CTF题目自动化解密的过程包含： **图片隐写-Hex附加、压缩包伪加密识别与破解、AES解密、SQL注入漏洞、文件上传漏洞** ）
+
+本地离线大模型DeepSeek‑R‑14B&Qwen3+ AiScan‑N助力CTF网络安全大赛|内网快速扫描，无需访问互联网！(**本篇文章介绍了使用本地大模型对CTF题目自动化解密的过程包含：本地大模型Qwen3-Coder-30B对图片隐写-Hex附加进行解密、本地大模型Qwen3-Coder-30B对SQL注入漏洞注入、DeepSeek‑R‑14B扫描内网 192.168.0.0/2**) https://mp.weixin.qq.com/s/bfGKgzq7iS8osMBRVaE4LQ
+
+AiScan-N 不止于此！一款基于人工智能驱动的Ai自动化网络安全（运维）工具【CLI Agent】(**本篇文章介绍使用大模型进行自动化网络安全评估、运维、调用指定工具扫描内网主机的过程。**) https://mp.weixin.qq.com/s/UUB-CAc5YiIC2MFFwl8rJQ
 
 ## 🪢 支持多种主流大语言模型（LLM）
 | 🌐 国外大模型&平台                                            | 🇨🇳 国内大模型&平台                                            | 🏠 本地私有部署<br/> 🔐数据不出内网，满足合规要求                   | 🧠RAG 知识库检索增强生成                       |
