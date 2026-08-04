@@ -1,13 +1,12 @@
 # 🛡️ AiScan-N -  AI-Powered Security Tool
 
-[![Download AiScan-N](https://img.shields.io/badge/Download%20AiScan--N-v0.0.3-blue.svg)](https://github.com/SecNN/AiScan-N/releases)
+[![Download AiScan-N](https://img.shields.io/badge/Download%20AiScan--N-v3.0.1-blue.svg)](https://github.com/SecNN/AiScan-N/releases)
 
-###  📜 描述
+## 📜 描述
 
-  AiScan-N 来了！这是一款基于人工智能驱动的Ai自动化网络安全（运维）工具，专注于网络安全评估、漏洞扫描、运维、应急响应、渗透测试自动化，Ai大模型工具集【CLI Agent】 ，Ai驱动的安全检测技术，提升安全测试（运维）效率，专为企业和个人用户打造，尤其适合初学者、零基础用户轻松入门智能安全领域快速上手使用，让你轻松迈入智能安全攻防时代！跨平台的应用程序，可在 **🪟Windows**、**🐧Linux**、 **MacOS🍎苹果系统** 、**UOS（统信操作系统及其他国产系统）** 和 **🎭WSL（Windows Subsystem for Linux）** 环境下运行。支持命令行交互启动，适用于多种开发与生产环境需求。
+ 		AiScan-N 来了！这是一款基于人工智能驱动的Ai自动化网络安全（运维）工具，专注于网络安全评估、漏洞扫描、运维、代码审计、APK 程序逆向分析、应急响应、渗透测试自动化，Ai大模型工具集【CLI Agent】 ，Ai驱动的安全检测技术，提升安全测试（运维）效率，专为企业和个人用户打造，尤其适合初学者、零基础用户轻松入门智能安全领域快速上手使用，让你轻松迈入智能安全攻防时代！跨平台的应用程序，可在 **🪟Windows**、**🐧Linux**、 **MacOS🍎苹果系统** 和 **🎭WSL（Windows Subsystem for Linux）** 环境下运行。支持命令行交互，适用于多种开发与生产环境需求。
 
-项目主页：https://SecNN.com/AiScan-N
-​	
+
 ```
    █████████    ███   █████████                                           ██████   █████
   ███▒▒▒▒▒███  ▒▒▒   ███▒▒▒▒▒███                                         ▒▒██████ ▒▒███ 
@@ -18,12 +17,43 @@
  █████   █████ █████▒▒█████████ ▒▒██████ ▒▒████████ ████ █████            █████  ▒▒█████
 ▒▒▒▒▒   ▒▒▒▒▒ ▒▒▒▒▒  ▒▒▒▒▒▒▒▒▒   ▒▒▒▒▒▒   ▒▒▒▒▒▒▒▒ ▒▒▒▒ ▒▒▒▒▒            ▒▒▒▒▒    ▒▒▒▒▒ 
 
-              网络安全·运维·渗透测试·漏洞扫描·应急响应·Ai大模型工具集【CLI Agent】                                                                             
-                                                                                        
+              网络安全·运维·渗透测试·漏洞扫描·应急响应·Ai大模型工具集【CLI Agent】                                     
                        🌐 https://github.com/SecNN/AiScan-N   
 ```
 
+## 🛠️项目背景！  
 
+​		你是否想过，未来的“黑客”可能不再是戴着面具的神秘人🎭，而是 24 小时不眠不休的 AI 机器人？全自动化渗透测试（Automated Penetration Testing）正从实验室走向现实，它不仅重塑了网络安全的游戏规则，也为企业与个人带来了前所未有的机遇和挑战。
+
+那么，什么是 AI 全自动化渗透测试？简单来说，它是利用机器学习、自然语言处理与深度学习等技术，对传统依赖人工经验和漫长周期的渗透测试进行智能化升级。它能够像安全专家一样主动发现风险，却比人工更快、更稳、更持续。具体而言，它可以：
+
+- 🕵️ **自动识别漏洞**：快速扫描系统、网络或应用，精准定位潜在风险；
+- 💻 **模拟真实攻击**：像黑客一样尝试突破防线，但目标是为了修复而非破坏；
+- 📄 **智能生成报告**：清晰呈现漏洞详情与修复建议，帮助团队高效闭环。
+
+​		相比传统方式，AI 全自动化渗透测试的优势十分明显：它将原本数天的工作压缩到几小时甚至几分钟，效率成倍提升；可同时覆盖多个系统与复杂环境，显著减少人工遗漏；通过持续学习与算法优化，识别准确率可达 90% 以上，并能快速适应新型攻击手法。此外，它还大幅降低了对高薪安全专家的依赖，成本更可控，特别适合中小企业、个人用户以及刚入门的学习者。
+
+​		在应用场景上，它同样广泛：红队演练、CTF 竞赛、Web 应用渗透、APK 程序逆向分析、内网横向移动、代码审计、密码破解与暴力攻击测试、流量分析与威胁检测、APT 攻击模拟、逆向题目训练、漏洞赏金挑战等，都能借助 AI 自动化能力获得事半功倍的效果。
+
+​		AI 全自动化渗透测试并不是要取代安全专家，而是成为他们的得力助手。在人机协同下，安全防御将更主动、更高效。你，准备好迎接这场智能安全的新变革了吗？
+
+## 📸 界面预览
+
+- **全局仪表盘**：直观呈现分布、任务状态与实时日志，全局态势一目了然。
+
+![iShot_2026-08-03_22.45.43](./images/README/iShot_2026-08-03_22.45.43.png)
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="./images/README/spacexcode-screenshot-2545@3x.png" alt="截图1" style="width: 40%;">
+  <img src="./images/README/spacexcode-screenshot-2636@3x.png" alt="截图2" style="width: 40%;">
+</div>
+
+
+![spacexcode-screenshot-284@3x](./images/README/spacexcode-screenshot-284@3x.png)
+
+![spacexcode-screenshot-2813@3x](./images/README/spacexcode-screenshot-2813@3x.png)
+
+![spacexcode-screenshot-2819@3x](./images/README/spacexcode-screenshot-2819@3x-1785811680975-6.png)
 
 🚀自动化渗透测试-靶场：https://github.com/SecNN/AI-PT
 
@@ -31,38 +61,22 @@
 
 🎥在线演示视频（文章中）：https://mp.weixin.qq.com/s/7lsUdbrxkDy4P5pZhEWv7Q
 
-🎯用Ai做自动化渗透测试对CTF题目进行解密|CTF网络安全大赛：https://mp.weixin.qq.com/s/Xu6WpkmPP04MA8fApxOMzA  （本篇文章介绍了使用Ai工具对CTF题目自动化解密的过程包含： **图片隐写-Hex附加、压缩包伪加密识别与破解、AES解密、SQL注入漏洞、文件上传漏洞** ）
+🎯本文以国内用户均可直接使用的国产大模型 DeepSeek-V4-Flash 为对象，系统介绍了从基础提示词准备到结果输出的完整测试流程。测试内容涵盖：**家庭路由器管理后台用户名/密码枚举、网络非法博彩类 APK 程序逆向分析、基于 Wireshark 抓包的 PCAP 日志分析（恶意流量扫描攻击特征识别）、靶场渗透测试（难度: 6级）、代码审计、内网资产扫描、以及调用指定工具完成自动化测试等多个实战环节。**
 
-本地离线大模型DeepSeek‑R‑14B&Qwen3+ AiScan‑N助力CTF网络安全大赛|内网快速扫描，无需访问互联网！(**本篇文章介绍了使用本地大模型对CTF题目自动化解密的过程包含：本地大模型Qwen3-Coder-30B对图片隐写-Hex附加进行解密、本地大模型Qwen3-Coder-30B对SQL注入漏洞注入、DeepSeek‑R‑14B扫描内网 192.168.0.0/2**) https://mp.weixin.qq.com/s/bfGKgzq7iS8osMBRVaE4LQ
+https://mp.weixin.qq.com/s/TK0-KajgPIkdR4bQzhxUlQ
 
-AiScan-N 不止于此！一款基于人工智能驱动的Ai自动化网络安全（运维）工具【CLI Agent】(**本篇文章介绍使用大模型进行自动化网络安全评估、运维、调用指定工具扫描内网主机的过程。**) https://mp.weixin.qq.com/s/UUB-CAc5YiIC2MFFwl8rJQ
+🎯用Ai做自动化渗透测试对CTF题目进行解密|CTF网络安全大赛  （过程包含： **图片隐写-Hex附加、压缩包伪加密识别与破解、AES解密、SQL注入漏洞、文件上传漏洞** ）
 
-## 🪢 支持多种主流大语言模型（LLM）
-| 🌐 国外大模型&平台                                            | 🇨🇳 国内大模型&平台                                            | 🏠 本地私有部署<br/> 🔐数据不出内网，满足合规要求                   | 🧠RAG 知识库检索增强生成                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------ |
-| **OpenAI、GPT-4o, GPT-4 Turbo, ChatGPT、Google Gemini、Claude 3、Llama等大模型。** | **DeepSeek、Qwen（通义千问）、 智谱 GLM-4 、Moonshot Kimi（月之暗面）、 文心一言 · MiniMax · 豆包等大模型。** | **支持Ollama、 LM Studio、Llama3、Qwen（通义千问）、DeepSeek等本地大模型或平台。** | **📚通过结合检索机制和生成模型，提供准确且相关的回答，大幅降低误报率。** |
+https://mp.weixin.qq.com/s/Xu6WpkmPP04MA8fApxOMzA
 
-💡 支持大模型 API 中转站，解决网络访问问题 | [LLM 平台](https://api.secnn.com/) | 详细配置 → [LLM平台 使用说明书](https://www.secnn.com/AiScan-N/SecNNAPi.html)
+本地离线大模型DeepSeek‑R‑14B&Qwen3+ AiScan‑N助力CTF网络安全大赛|内网快速扫描，无需访问互联网！(**过程包含：本地大模型Qwen3-Coder-30B对图片隐写-Hex附加进行解密、本地大模型Qwen3-Coder-30B对SQL注入漏洞注入、DeepSeek‑R‑14B扫描内网 192.168.0.0/2**) 
 
-## 🛠️带你开启智能网络安全的新时代！  
+https://mp.weixin.qq.com/s/bfGKgzq7iS8osMBRVaE4LQ
 
- 你是否想过，未来的黑客可能不再是戴着面具的神秘人🎭，而是一台24小时不间断运行的Ai机器人？全自动化渗透测试（Automated Penetration Testing）正从实验室走向现实，它不仅改变了网络安全的游戏规则，也让企业和个人面临前所未有的挑战和机遇。那么，什么是AI全自动化渗透测试？它有哪些优势？又将如何改变安全防护的格局？一起来了解吧！
+AiScan-N 不止于此！一款基于人工智能驱动的Ai自动化网络安全（运维）工具【CLI Agent】(**介绍使用大模型进行自动化网络安全评估、运维、调用指定工具扫描内网主机的过程。**) 
 
-## 🌟 什么是Ai全自动化渗透测试？    
-传统的渗透测试通常由安全专家手动进行，耗时长且依赖经验。而AI全自动化渗透测试利用机器学习、自然语言处理和深度学习等技术，可以：
-```
-🕵️自动识别漏洞：扫描系统、网络或应用程序，快速定位潜在风险。
-💻模拟攻击 ：像黑客一样尝试突破防线，但目的是为了修复而非破坏。
-📄生成报告：详细列出漏洞及修复建议，帮助团队高效解决问题。
-```
-## 🚀 Ai全自动化渗透测试的优势与场景
-```
-🧑‍💻适用场景 ：如（红队演练、CTF比赛、Web应用渗透测试、内网横向移动、密码破解与暴力攻击、流量分析与威胁检测、APT攻击模拟、CTF逆向题、漏洞赏金挑战等场景）
-📈效率翻倍 ：从几天缩短到几小时甚至几分钟，大幅提升测试速度。
-📊覆盖面广 ：AI可以同时检测多个系统和复杂环境，减少人工遗漏。
-🤖智能学习 ：通过不断学习和优化算法，Ai的能力会越来越强，准确率高达90%以上,适应新型攻击手法。
-💰降低成本：减少对高薪安全专家的依赖，适合专为中小企业和个人用户打造，尤其适合初学者（小白）。
-```
+https://mp.weixin.qq.com/s/UUB-CAc5YiIC2MFFwl8rJQ
+
 ## ☁️AiScan‑N 工具支持多种大模型的接入方式，可灵活选择：
 
 以下任意一种大模型均可调用 AiScan‑N ，帮助您快速构建智能分析能力。
@@ -70,116 +84,138 @@ AiScan-N 不止于此！一款基于人工智能驱动的Ai自动化网络安全
 1. 第三方提供的免费大模型；
 2. 云端计费的大模型（按使用量计费）；
 3. 本地部署的大模型（后续使用无需互联网，提供完整的大模型部署教程）；本地离线大模型直接部署在你的电脑上，具体使用哪个版本取决于电脑的硬件配置。顾名思义，它是在本机上运行的大模型，运行效果自然与电脑的配置息息相关。
-4. 购买授权可在限定额度内调用 SecNN 提供的大模型 APi（ https://api.secnn.com ），为 AiScan‑N 提供动力，平台已将以下大模型纳入免费试用套餐：
+4. 购买授权可在限定额度内调用 SecNN 提供的大模型 APi（ https://api.secnn.com ），为 AiScan‑N 提供动力，平台已将多款大模型纳入免费试用套餐。
 
-- Google Gemini 3 Pro Preview
-- ChatGPT‑120b
-- DeepSeek V3.1‑671b
-- Qwen3‑Coder‑480b
-
-# **💜AiScan-N 使用说明**
-```
-AiScan-N 服务端参数:
-  -h, --help    show this help message and exit
-  -port PORT    API 服务器端口（默认: 10000）
-  -token TOKEN  用于 API 令牌的鉴权
-```
 ## 🌐跨平台运行
+
 ✨ 完美支持 🪟 Windows | 🐧 Linux | 🍎 MacOS | WSL | UOS（统信操作系统及其他国产系统） 环境 <br/> 
 ⌨️ CLI 命令行交互启动，助力效率提升<br/> 
-🚀 适用于从本地开发到云端部署的全场景需求<br/> 
+🚀 适用于从本地开发到云端部署的全场景需求<br/>
 
-------------------------------------------------------------------------------------------
-客户端
-```
-AiScan-N.exe   运行在Windows中的客户端
-AiScan-N.bin   运行在Linux中的客户端（Linux系统一般都支持)
-AiScan-N-ARM.bin  运行在MacOS苹果系统中的客户端
-```
-服务端
-```
-AiScan-N-Server.bin   运行在AMD架构中的Linux服务端（大多数系统都是这个架构）
-AiScan-N-Server-ARM.bin   运行在苹果MacOS系统ARM架构中的服务端（常见：苹果MacOS系统）
-AiScan-N-Server.exe    运行在Windows系统AMD架构中的服务端
-```
 根据自己的系统架构各选择一个服务端和客户端运行即可。
-## 🤖在 Linux 或 MacOS 运行 AiScan-N Tools API 服务端
-```
-sudo chmod  +x  AiScan-N-Server.bin          # 赋予执行权限
-方法一【命令行模式运行】：sudo ./AiScan-N-Server.bin -token 123456     # token中的123456可自定义
 
-方法二【交互模式运行】：sudo ./AiScan-N-Server.bin
-请输入AiScan-N服务器端口（可直接回车跳过） [默认: 10000]:
-请输入AiScan-N服务器鉴权Token（必填）:
+# **💜AiScan-N 使用说明**
+
 ```
+示例:
+  # 使用默认端口启动（Web: 20000，外部 MCP: 10000）
+  AiScan-N
+  
+  # 设置 Web 登录密码
+  AiScan-N --password 123456789
+
+  # 分别指定 Web 和外部 MCP 端口
+  AiScan-N --port 20000 --mcp-port 12000
+
+  # 指定监听地址、外部 MCP Token 和端口
+  AiScan-N --host 0.0.0.0 --mcp-port 12000 --mcp-token 123456
+
+  # 指定大模型接口
+  AiScan-N --llm-base-url https://api.openai.com/v1  --llm-api-key sk-xxx --llm-model gpt-4o
+```
+
+## 🤖运行 AiScan-N Tools API 服务端
+
+```
+sudo chmod  +x  AiScan-N-Mac     # 赋予执行权限
+【命令行模式运行】：sudo  ./AiScan-N-Mac --password 123456   
+```
+
 运行之后显示如下：
-![图片描述](images/1.png)
+![spacexcode-screenshot-2756@3x](./images/README/spacexcode-screenshot-2756@3x.png)
 
-## 🤖在Windows运行 AiScan-N Tools API 服务端
+检查服务是否运行成功浏览器访问🚀AiScan-N Web 服务运行后出现的URL:
 
-```
-方法一：【打开CMD命令行模式运行】：AiScan-N-Server.exe -token 123456  
+![image-20260804113835470](./images/README/image-20260804113835470.png)
 
-方法二：双击 AiScan-N-Server.exe  开启交互模式运行
-请输入AiScan-N服务器端口（可直接回车跳过） [默认: 10000]:
-请输入AiScan-N服务器鉴权Token（必填）:
-```
-运行之后显示如下：
-![图片描述](images/8.png)
+出现登录界面说明服务运行成功。
 
-🚨token用于API接口鉴权的Bearer令牌，未设置 token，将受到被恶意漏洞利用的高危风险 ⚠️ 建议设置强密码型令牌提高安全性。
+## 🌟实战演示：
 
+### ✅ **家庭路由器管理登录处用户名密码枚举**
 
+- ```
+  你好，请对 http://192.168.2.1/userLogin.asp 进行渗透测试
+  ```
 
-检查服务是否运行成功浏览器访问🚀 监听地址:
+![image-20260804113014100](./images/README/image-20260804113014100.png)
 
-![图片描述](images/2.png)
-
-访问提示"OK"说明服务端运行成功。
-
-## 🌟实践操作：
-### 1.测试提问：
-```
-请对 http://192.168.10.18/ 开展渗透测试
-```
-🛡️演示环境说明：环境说明：（均在授权演练环境中完成实验。）
-
-【Windows 11】🖥️Ai输入提示词：192.168.10.11
-
-【Kali Linux】🤖攻击机 ：192.168.10.34
-
-🚩靶场IP：192.168.10.18【网站 http://192.168.10.18/index.php】
-
-![图片描述](images/3.png)
-
-![图片描述](images/4.png)
-🎥在线演示视频（文章中）：https://mp.weixin.qq.com/s/7lsUdbrxkDy4P5pZhEWv7Q
-
-🎯攻击链概述：本次Ai全自动化渗透测试中，我们按照标准的渗透测试方法论，从信息收集开始，逐步发现并利用了多个安全漏洞，形成了完整的攻击链。
+### **✅ 恶意流量日志分析**实战：Wireshark抓包的日志文件PCAP 扫描攻击特征分析
 
 ```
-初始侦察：识别目标系统和开放服务
-漏洞发现：发现ping.php存在命令执行漏洞
-权限提升：利用命令执行获取系统访问权限
-横向移动：获取数据库凭证和其他敏感信息
-漏洞利用扩展：测试文件上传和XSS等其他漏洞
+分析文件：流量分析.zip要求：
+流量分析1.黑客的 IP 地址是什么？
+2.黑客通过漏洞上传连接服务器的文件名字是什么？
+3.黑客上传的 Webshell 用的什么工具连接？
+4.黑客利用什么漏洞来进行攻击？
+A.SQL注入 B.文件上传 C.XXE D.反序列化漏洞
+5.黑客连接 Webshell 的连接密码是什么？[明文]
+6.黑客连接 Webshell 后执行的第一条系统命令是什么？
+7.黑客通过 Webshell 上传的文件内容是什么？
+8.黑客创建系统的用户名字叫什么？
 ```
 
-### 2.CTF靶场测试：
+![image-20260804113119664](./images/README/image-20260804113119664.png)
+
+### ✅ **代码审计**
+
+- ```
+  分析文件：webshell.rar
+  要求：分析压缩包里面的文件，进行代码审计。
+  ```
+
+![image-20260804113154217](./images/README/image-20260804113154217.png)
+
+### ✅ **对网络非法博彩程序进行分析（APK分析）**
+
+- ```
+  分析文件：18XXXX_nn_v3.apk
+  要求：请安全解包并静态分析此 APK，检查权限、导出组件、网络安全配置、硬编码敏感信息、WebView、签名、DEX 与原生库风险。
+  ```
+
+![image-20260804113258042](./images/README/image-20260804113258042.png)
+
+### ✅ **调用指定工具(Fscan)完成测试。**
+
+- ```
+  调用fscan扫描192.168.10.0/24主机
+  ```
+
+![image-20260804113325033](./images/README/image-20260804113325033.png)
+
+### **✅** **难度: 6级-**靶场测试[**文件上传漏洞实战**]
+
+![image-20260804113346677](./images/README/image-20260804113346677.png)
+
+### ✅ [资产盘点]**扫描内网**存活主机有哪些，设备具体的型号及更多详细信息
+
+```
+扫描内网 192.168.0.0/24的存活主机有哪些，设备具体的型号及更多详细信息。
+```
+
+![image-20260804113507291](./images/README/image-20260804113507291.png)
+
+### ✅ CTF靶场测试
+
 这里是找了一个CTF靶场平台进行简单测试。
+
 ```
 http://6igi6zl.haobachang.loveli.com.cn:8888/ 对本题进行分析，拿下这道题目的flag
 ```
+
 成功获取到flag：flag{328fb13344854a19838209c0ec24e4b7}
 ![图片描述](images/5.png)
 操作比较简单的，而且体验感对于我来说感觉还不错的，并且具有一定的实用性。
 
-### 3.图片隐写-Hex附加：
+### ✅ 图片隐写-Hex附加：
+
 对一个图片隐写进行分析，给出了一个zip文件的URL。需要先下载这个文件，然后进行分析。
 提示词：
+
 ```
 对该图片隐写进行分析 http://loveli.com.cn/static/timu/7025b454-055c-4ad6-9ba4-b59a2fca72fa.zip
 ```
+
 ![图片描述](images/6.png)
 
 成功获取的flag值为：flag{haobachang_huanying_nin_123782934789372459}
@@ -198,12 +234,6 @@ http://6igi6zl.haobachang.loveli.com.cn:8888/ 对本题进行分析，拿下这�
 
 🎯用Ai做自动化渗透测试对CTF题目进行解密|CTF网络安全大赛：https://mp.weixin.qq.com/s/Xu6WpkmPP04MA8fApxOMzA  （本篇文章介绍了使用Ai工具对CTF题目自动化解密的过程包含：** 图片隐写-Hex附加、压缩包伪加密识别与破解、AES解密、SQL注入漏洞、文件上传漏洞 **）
 
-## WSL（Windows Subsystem for Linux）Kali
-![图片描述](images/wslkali.png)
-
-## MacOS苹果系统
-![图片描述](images/MacOS.png)
-
 ⚠️ 注意事项:
 纯依赖Ai可能缺乏创造性，某些复杂问题仍需人工干预。
 
@@ -219,10 +249,9 @@ http://6igi6zl.haobachang.loveli.com.cn:8888/ 对本题进行分析，拿下这�
 
 ☕ 持续更新中......
 
-
-<img src="images/7.jpg" alt="项目Logo" width="500">
+<img src="./images/README/%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%E5%BE%AE%E4%BF%A1+QQ+%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" alt="项目Logo" width="500">
 
 ## 🙏 Thanks
-- ❤️ 特别感谢 [@LANDY](https://github.com/LANDY-LI-2025) 提供的宝贵建议。
 
+- ❤️ 特别感谢 [@LANDY](https://github.com/LANDY-LI-2025) 提供的宝贵建议。
 
