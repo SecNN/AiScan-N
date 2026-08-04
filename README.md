@@ -44,8 +44,8 @@
 ![iShot_2026-08-03_22.45.43](./images/README/iShot_2026-08-03_22.45.43.png)
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="./images/README/spacexcode-screenshot-2545@3x.png" alt="截图1" style="width: 40%;">
-  <img src="./images/README/spacexcode-screenshot-2636@3x.png" alt="截图2" style="width: 40%;">
+  <img src="./images/README/spacexcode-screenshot-2545@3x.png" alt="截图1" style="width: 48%;">
+  <img src="./images/README/spacexcode-screenshot-2636@3x.png" alt="截图2" style="width: 48%;">
 </div>
 
 
@@ -183,11 +183,11 @@ A.SQL注入 B.文件上传 C.XXE D.反序列化漏洞
 
 ![image-20260804113325033](./images/README/image-20260804113325033.png)
 
-### **✅** **难度: 6级-**靶场测试[**文件上传漏洞实战**]
+### ✅难度: 6级-靶场测试[文件上传漏洞实战]
 
 ![image-20260804113346677](./images/README/image-20260804113346677.png)
 
-### ✅ [资产盘点]**扫描内网**存活主机有哪些，设备具体的型号及更多详细信息
+### ✅ [资产盘点]扫描内网存活主机有哪些，设备具体的型号及更多详细信息
 
 ```
 扫描内网 192.168.0.0/24的存活主机有哪些，设备具体的型号及更多详细信息。
@@ -232,7 +232,7 @@ http://6igi6zl.haobachang.loveli.com.cn:8888/ 对本题进行分析，拿下这�
 
 隐写方法 ：使用了文件尾部附加数据的方式，这是一种常见的隐写技术，利用大多数图像查看器会忽略IEND块后额外数据的特性。
 
-🎯用Ai做自动化渗透测试对CTF题目进行解密|CTF网络安全大赛：https://mp.weixin.qq.com/s/Xu6WpkmPP04MA8fApxOMzA  （本篇文章介绍了使用Ai工具对CTF题目自动化解密的过程包含：** 图片隐写-Hex附加、压缩包伪加密识别与破解、AES解密、SQL注入漏洞、文件上传漏洞 **）
+🎯用Ai做自动化渗透测试对CTF题目进行解密|CTF网络安全大赛：https://mp.weixin.qq.com/s/Xu6WpkmPP04MA8fApxOMzA  （本篇文章介绍了使用Ai工具对CTF题目自动化解密的过程包含：图片隐写-Hex附加、压缩包伪加密识别与破解、AES解密、SQL注入漏洞、文件上传漏洞）
 
 ⚠️ 注意事项:
 纯依赖Ai可能缺乏创造性，某些复杂问题仍需人工干预。
