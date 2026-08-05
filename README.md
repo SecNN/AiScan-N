@@ -1,6 +1,6 @@
 # 🛡️ AiScan-N -  AI-Powered Security Tool
 
-[![Download AiScan-N](https://img.shields.io/badge/Download%20AiScan--N-v3.0.1-blue.svg)](https://github.com/SecNN/AiScan-N/releases)
+[![Download AiScan-N](https://img.shields.io/badge/Download%20AiScan--N-v3.0.2-blue.svg)](https://github.com/SecNN/AiScan-N/releases)
 
 ## 📜 描述
 
