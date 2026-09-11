@@ -43,17 +43,73 @@ AiScan-N 来了！这是一款基于人工智能驱动的Ai自动化网络安全
 
 ![iShot_2026-08-03_22.45.43](./images/README/iShot_2026-08-03_22.45.43.png)
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="./images/README/spacexcode-screenshot-2545@3x.png" alt="截图1" style="width: 48%;">
-  <img src="./images/README/spacexcode-screenshot-2636@3x.png" alt="截图2" style="width: 48%;">
-</div>
 
 
-![spacexcode-screenshot-284@3x](./images/README/spacexcode-screenshot-284@3x.png)
+## 一、对话与工作台
+- 多会话管理（新建/切换/搜索/分页/重命名）、**消息编辑与重新生成**、分支历史
+- **文件上传分析**：图片、文档、压缩包、PCAP/PCAPNG、APK/IPA 等，拖拽即用
+- **会话级输出目录隔离**（每个会话独立 output 子目录，生成物可直接下载）
+- **工作区（Workspace）** 切换；会话可独立选择模型、Skills、Tools、MCP、通知渠道
+- **模型长期记忆**：记忆抽取/编辑/管理，跨会话引用
+- 运营面板：请求任务、错误诊断、渠道健康、工作区
+- **登录审计**（登录 IP、错误密码、封禁记录）、**在线更新**（版本检查 + 一键下载）、**反馈**、**H5 分享**、**个性化 VIP 品牌定制**
 
-![spacexcode-screenshot-2813@3x](./images/README/spacexcode-screenshot-2813@3x.png)
+<img width="1764" height="1120" alt="image" src="https://github.com/user-attachments/assets/cc14e788-e099-4467-9ed2-18005141a9c0" />
 
-![spacexcode-screenshot-2819@3x](./images/README/spacexcode-screenshot-2819@3x-1785811680975-6.png)
+
+## 二、大模型与 MCP 集成
+- 多提供商大模型配置 + 提供商健康检查 + 模型列表
+- **内置 MCP**：AiScan-N 工具、`fetch`（只读抓公网网页并提取文本，阻止内网/保留地址）、**Android 控制**、**iOS 控制（WDA）**、**SSH 远程连接管理**、**BurpSuite**、**IDA Pro**
+- **第三方 MCP** 接入（SSE / stdio / streamable HTTP），带详情面板、工具清单与安全边界说明
+- **Skills 技能中心**（内置授权渗透测试、Web/API 测试、JS 逆向、应急响应、工作流等，支持本地/远程/目录导入）
+- **Tools 工具管理**（上传工具、目录导入、远程导入；调用时自动注入 PATH）
+
+<img width="1764" height="1120" alt="image" src="https://github.com/user-attachments/assets/946da05a-1571-4b47-a7e6-631b690f119a" />
+<img width="1764" height="1120" alt="image" src="https://github.com/user-attachments/assets/4c1bf223-2707-47b8-a38e-75b0e3d18c52" />
+
+
+## 三、信息收集
+- **子域收集**：被动数据源（crt.sh / OTX / HackerTarget / RapidDNS / Wayback / Common Crawl）+ 常规检查（AXFR、证书 SAN、robots/sitemap/crossdomain、CSP、NSEC）+ 字典爆破（内置字典 / 自定义 / 文件导入 / 多文件拖拽，检测到 **massdns** 自动启用加速）+ 爬取/置换 + 子域验证（DNS+HTTP、泛解析过滤）+ 递归爆破
+- **网络资产测绘源**：FOFA / Shodan / ZoomEye / Quake / Hunter（各自 API Key）
+- **Host 碰撞**：随收集实时碰撞 + 独立「碰撞所填内容」入口；自动分批（每批 ≤8000 组）、可停止、并发可调（1–500）；命中结果并入结果列表并红色告警
+- **CDN/源站判定**：Cloudflare/CDN 标记徽章 + 仅存活/CDN/源站/Host 碰撞筛选
+- 结果管理：历史主域名数据、删除主域历史、**导出 6 种格式**（TXT / 仅域名 / CSV / Excel / JSON / Markdown）、**下发 Ai 任务**（一键送 AI 分析并创建渗透测试任务）
+- **指纹识别**：CMS、框架、中间件、语言、WAF/CDN、蜜罐等特征识别（内置规则库 + 结果检索/分页）
+  
+<img width="1764" height="1120" alt="image" src="https://github.com/user-attachments/assets/4494baa8-051c-40be-8977-45b8a645a6e6" />
+
+
+## 四、Web 安全测试与流量
+- **代理抓包**：本地 HTTP/HTTPS 代理（CA 生成/下载 `.crt`、导出 `.p12`、一键安装信任）、实时流量与历史抓包、搜索过滤、**自定义敏感信息规则（正则）**、Host 白/黑名单、**AI 分析抓包流量**
+- **Webshell 管理**：生成多语言"无害代码执行验证文件"用于授权验证
+- 注入/越权/上传/敏感信息泄露等风险通过内置技能与模型协同验证（低影响、留存证据）
+
+<img width="1764" height="1120" alt="image" src="https://github.com/user-attachments/assets/eee93c36-2776-45ec-9f07-fb709d0b310a" />
+
+
+## 五、资产、漏洞与交付
+- **渗透测试任务中心**：案例/漏洞/证据三库联动，严重性、置信度（confirmed/pending/误报）、CVSS/CWE、flag 提取、任务状态（进行中/已完成/暂停）
+- **派发任务**：指定目标与范围，一键派发 AI 执行
+- **报告导出**：Markdown / DOCX 安全报告（执行摘要、攻击链、漏洞详情、修复建议、加固方案）
+- 对话报告也可导出 PDF/Markdown/DOCX（reportlab / python-docx）
+- **POC&EXP 管理**：知识库管理，沉淀已验证的验证过程
+- 对话内生成 **PPT / Word**、**图片**、单文件 **HTML 报告**（示例提示词已内置）
+
+<img width="1764" height="1120" alt="image" src="https://github.com/user-attachments/assets/dc3da32d-d2e2-4882-a7a3-5ca6af18c321" />
+
+
+## 六、远程与移动端
+- **SSH 远程**：面板连接主机后，模型可用 `ssh_run` 执行非交互命令（含只读/低影响约束）
+- **Android 控制**：adb 设备发现与授权、USB/无线调试、**scrcpy 镜像**、受限工具（读界面 XML、截图、点击/滑动、输入、启动普通应用；支付/银行/认证类应用禁止）
+- **iOS 控制**：通过本机 WDA 服务，同样为受限操作工具集
+- **终端管理（Agent）**：生成/连接 Agent、授权续期、TCP 监听端口管理、遥测（CPU/内存/磁盘）、只读诊断任务（系统信息/进程/网络/日志）、**AI 生成只读排查命令（需确认后下发）**、AI 诊断结论、运行日志检索
+
+## 七、自动化与通知
+- **定时任务**：按计划让模型对指定授权资产做巡检/检查，结果可推送到通知渠道
+- **通知渠道**：微信 ClawBot、Telegram、钉钉 Stream（可与会话绑定，支持独立频道会话直接对话）
+- **GitHub 监控**：关键词监控，发现新内容推送通知
+- **一键复制全部 URL**、结果分页、空对话示例提示词（18 条，覆盖渗透测试、CTF、流量/日志应急、SSH 运维、报告与 PPT 生成等）
+
 
 🚀自动化渗透测试-靶场：https://github.com/SecNN/AI-PT
 
