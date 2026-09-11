@@ -111,9 +111,6 @@ AiScan-N 来了！这是一款基于人工智能驱动的Ai自动化网络安全
 - **一键复制全部 URL**、结果分页、空对话示例提示词（18 条，覆盖渗透测试、CTF、流量/日志应急、SSH 运维、报告与 PPT 生成等）
 
 
-🚀自动化渗透测试-靶场：https://github.com/SecNN/AI-PT
-
-🌈常见漏洞知识库文档在线阅读：https://www.secnn.com/POC-EXP 
 
 🎥在线演示视频（文章中）：https://mp.weixin.qq.com/s/7lsUdbrxkDy4P5pZhEWv7Q
 
