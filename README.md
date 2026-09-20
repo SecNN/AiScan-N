@@ -92,8 +92,6 @@ AiScan-N 来了！这是一款基于人工智能驱动的Ai自动化网络安全
 
 <img width="1080" height="564" alt="image" src="https://github.com/user-attachments/assets/d5146a92-4d4a-4010-97d2-68e4db91b1ea" />
 
-
-
 ## 三、流量与抓包
 代理抓包： 一键启动本地代理，手机流量实时可见。 怎么用：手机设好代理后，请求和响应在电脑上实时刷新。敏感信息识别、会话流量、抓包文件分析、证书、本地 HTTP/HTTPS 代理（CA 生成/下载 .crt、导出 .p12、一键安装信任）、实时流量与历史抓包、搜索过滤、自定义敏感信息规则（正则）、Host 白/黑名单、AI 分析抓包流量注入/越权/上传/敏感信息泄露等风险通过内置技能与模型协同验证（低影响、留存证据）
 
@@ -112,6 +110,8 @@ Android APP 抓包
 <img width="1080" height="583" alt="image" src="https://github.com/user-attachments/assets/b2d2eb23-868b-42bf-9210-40e1c2ffbf6f" />
 
 抓电报（TG）小程序数据包
+
+<img width="1878" height="961" alt="image" src="https://github.com/user-attachments/assets/4728e610-70e8-43f9-8319-1c89976740c3" />
 
 ## 四、漏洞与交付
 - 渗透测试任务中心：案例/漏洞/证据三库联动，严重性、置信度（confirmed/pending/误报）、CVSS/CWE、flag 提取、任务状态（进行中/已完成/暂停）
