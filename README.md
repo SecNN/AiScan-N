@@ -111,7 +111,7 @@ Android APP 抓包
 
 抓电报（TG）小程序数据包
 
-<img width="1878" height="961" alt="image" src="https://github.com/user-attachments/assets/4728e610-70e8-43f9-8319-1c89976740c3" />
+<img width="1786" height="911" alt="image" src="https://github.com/user-attachments/assets/6646abde-891c-4e5b-b5dd-e627e300cc78" />
 
 ## 四、漏洞与交付
 - 渗透测试任务中心：案例/漏洞/证据三库联动，严重性、置信度（confirmed/pending/误报）、CVSS/CWE、flag 提取、任务状态（进行中/已完成/暂停）
